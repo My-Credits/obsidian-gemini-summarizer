@@ -1,0 +1,46 @@
+/* Gemini Universal Summarizer - Obsidian Plugin Stylesheet */
+
+/* Clean, minimal settings styling */
+.summarizer-author-note {
+  margin: 16px 0 24px 0;
+  padding: 14px 18px;
+  border-radius: 8px;
+  background-color: var(--background-secondary-alt);
+  border-left: 4px solid var(--interactive-accent);
+  font-size: 0.9rem;
+  color: var(--text-normal);
+  line-height: 1.5;
+}
+
+.summarizer-author-note strong {
+  color: var(--text-accent);
+}
+
+.summarizer-inline-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent) !important;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-left: 8px;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.summarizer-inline-btn:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* Output formatting block styling */
+.summarizer-result-block {
+  font-family: var(--font-text);
+  line-height: 1.6;
+  margin: 12px 0;
+}

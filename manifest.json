@@ -1,0 +1,11 @@
+{
+  "id": "gemini-universal-summarizer",
+  "name": "Gemini Universal Summarizer",
+  "version": "1.2.0",
+  "minAppVersion": "0.15.0",
+  "description": "Fast, direct AI summarizer for YouTube, Reddit, and Web links into simple Target/Words/Summary format using Google Gemini API.",
+  "author": "My-Credits",
+  "authorUrl": "https://github.com/My-Credits",
+  "fundingUrl": "https://github.com/sponsors/My-Credits",
+  "isDesktopOnly": false
+}
